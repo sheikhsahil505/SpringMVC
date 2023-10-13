@@ -2,12 +2,9 @@ package com.springmvc.entity;
 
 
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.multipart.MultipartFile;
-
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.util.List;
 
@@ -39,7 +36,7 @@ public class User {
     public User() {
     }
 
-    @OneToMany(mappedBy = "user" ,cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user")
     private List<Address> address;
 
     public int getUser_id() {
@@ -105,10 +102,6 @@ public class User {
     public void setDob(String dob) {
         this.dob = dob;
     }
-
-
-
-
 
     public List<Address> getAddressDaoList() {
         return address;

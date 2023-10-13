@@ -1,24 +1,19 @@
 
-r	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅ®Šüÿÿÿÿ8¥§—–²1
-r	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯½¸Šøÿÿÿÿ8¥§—–²1
-l	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²å8¦§—–²1
-r	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±±Ô‡þÿÿÿÿ8¦§—–²1
-s	java:S116"RRename this field "user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÖïéÿÿÿÿÿ8®§—–²1
-q	java:S116"URename this field "first_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è•Ûì8®§—–²1
-p	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šø´¯8®§—–²1
-z	java:S116"YRename this field "contact_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÔ²ïøÿÿÿÿ8®§—–²1
+r	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅ®Šüÿÿÿÿ8¥§—–²1
+r	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯½¸Šøÿÿÿÿ8¥§—–²1
+l	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²å8¦§—–²1
+r	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±±Ô‡þÿÿÿÿ8¦§—–²1
+s	java:S116"RRename this field "user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÖïéÿÿÿÿÿ8®§—–²1
+q	java:S116"URename this field "first_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è•Ûì8®§—–²1
+p	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šø´¯8®§—–²1
+z	java:S116"YRename this field "contact_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÔ²ïøÿÿÿÿ8®§—–²1
 
-java:S1186'"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(øþ±,8®§—–²1
-j	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨þšþ8²§—–²1
-o	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅ®Šüÿÿÿÿ8³§—–²1
-j	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìþæ8³§—–²1
-o	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯½¸Šøÿÿÿÿ8³§—–²1
-o	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýí‚Æùÿÿÿÿ8´§—–²1
-i	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²å8´§—–²1
-j	java:S100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï½ÆÊ8µ§—–²1
-o	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±±Ô‡þÿÿÿÿ8µ§—–²1
-n
-java:S1128"LRemove this unused import 'org.springframework.web.multipart.MultipartFile'.(ôŸœžÿÿÿÿÿ8¸§—–²1
-c
-java:S1128
-"ARemove this unused import 'javax.validation.constraints.Pattern'.(¶ò†€øÿÿÿÿ8™±ú™²1
+java:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(øþ±,8®§—–²1
+j	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨þšþ8²§—–²1
+o	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅ®Šüÿÿÿÿ8³§—–²1
+j	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìþæ8³§—–²1
+o	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯½¸Šøÿÿÿÿ8³§—–²1
+o	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýí‚Æùÿÿÿÿ8´§—–²1
+i	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼²å8´§—–²1
+j	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï½ÆÊ8µ§—–²1
+o	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±±Ô‡þÿÿÿÿ8µ§—–²1

@@ -2,6 +2,7 @@ package com.springmvc.entity;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
+import java.util.Arrays;
 
 @Entity
 @Table(name = "user_addresses")
@@ -22,19 +23,16 @@ public class Address {
     @Transient
     private int[] addressId;
 
-    public int[] getAddressId() {
-        return addressId;
-    }
-
     public void setAddressId(int[] addressId) {
-        this.addressId = addressId;
+        // Create a defensive copy of the array
+        this.addressId = Arrays.copyOf(addressId, addressId.length);
     }
 
-    public Address(String addressValue) {
+    public int[] getAddressId() {
+        // Return a copy of the internal array to prevent direct modification
+        return Arrays.copyOf(addressId, addressId.length);
     }
 
-    public Address(String street,String apartment, String city, String state, String postalCode, String country) {
-    }
 
     public Address[] createArray(Address[] addresses) {
         return addresses;
@@ -46,7 +44,7 @@ public class Address {
         return address_id;
     }
 
-    public void setAddress_id(int i) {
+    public void setAddress_id(int address_id) {
         this.address_id = address_id;
     }
 
@@ -103,18 +101,6 @@ public class Address {
     }
 
     public void setUser(User user) {
-        this.user = user;
-    }
-
-    public Address(int address_id, String street, String apartment, String city, String pincode, String state, String country, User user) {
-
-        this.address_id = address_id;
-        this.street = street;
-        this.apartment = apartment;
-        this.city = city;
-        this.pincode = pincode;
-        this.state = state;
-        this.country = country;
         this.user = user;
     }
 

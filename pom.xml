@@ -93,10 +93,40 @@
       <artifactId>hibernate-validator</artifactId>
       <version>6.2.0.Final</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.github.spotbugs</groupId>
+      <artifactId>spotbugs</artifactId>
+      <version>4.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>SpringMVC</finalName>
       <plugins>
+
+        <plugin>
+          <groupId>com.github.spotbugs</groupId>
+          <artifactId>spotbugs-maven-plugin</artifactId>
+          <version>4.7.2.1</version>
+          <dependencies>
+            <dependency>
+              <groupId>com.github.spotbugs</groupId>
+              <artifactId>spotbugs</artifactId>
+              <version>4.7.3</version>
+            </dependency>
+          </dependencies>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>3.21.0</version>
+          <configuration>
+            <targetJdk>1.7</targetJdk>
+            <linkXRef>false</linkXRef>
+          </configuration>
+        </plugin>
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-compiler-plugin</artifactId>

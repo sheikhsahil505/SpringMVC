@@ -1,48 +1,40 @@
 
 g
-java:S1192W"JDefine a constant instead of duplicating this literal "addresses" 7 times.(Ä«ºé8Œ†§²1
+java:S1192A"JDefine a constant instead of duplicating this literal "addresses" 7 times.(Ä«ºé8šïüÄ²1
 k
-java:S1192S"IDefine a constant instead of duplicating this literal "password" 3 times.(Äæìøÿÿÿÿ8†§²1
-k
-java:S1192X"NDefine a constant instead of duplicating this literal "registrations" 6 times.(Ú»–8†§²1
+java:S1192B"NDefine a constant instead of duplicating this literal "registrations" 5 times.(Ú»–8›ïüÄ²1
 j
-java:S1192V"HDefine a constant instead of duplicating this literal "profile" 7 times.(´¶»ÿÿÿÿÿ8†§²1
+java:S1192@"HDefine a constant instead of duplicating this literal "profile" 7 times.(´¶»ÿÿÿÿÿ8›ïüÄ²1
 i
-java:S1192&"LDefine a constant instead of duplicating this literal "newRegister" 4 times.(Ñ³Ãã8†§²1
+java:S1192"LDefine a constant instead of duplicating this literal "newRegister" 4 times.(Ñ³Ãã8ò‚Ì¾²1
 j
-java:S11928"MDefine a constant instead of duplicating this literal "errorMessage" 4 times.(Ñ§Ëû8†§²1
-i
-java:S1192 "GDefine a constant instead of duplicating this literal "index" 10 times.(¦œû×ÿÿÿÿÿ8†§²1
-f
-java:S1192R"IDefine a constant instead of duplicating this literal "username" 9 times.(Ãª°í8†§²1
-]
-java:S4684+"@Replace this persistent entity with a simple POJO or DTO object.(Ä“ˆõ8»†§²1
-]
-java:S4684+"@Replace this persistent entity with a simple POJO or DTO object.(Ä“ˆõ8»†§²1
-g
-java:S4488*"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(êØ 8»†§²1
-\
-java:S4719/":Replace Charset.forName() call with StandardCharsets.UTF_8(®ˆùÿÿÿÿ8½†§²1
-l
-java:S4488C"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ãèïûÿÿÿÿ8À†§²1
-\
-java:S4719F":Replace Charset.forName() call with StandardCharsets.UTF_8(®ˆùÿÿÿÿ8Á†§²1
-g
-java:S4488a"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¶—Ìâ8Ä†§²1
-X
-java:S1751q"6Remove this "return" statement or make it conditional.(ş×’³úÿÿÿÿ8Æ†§²1
-l
-java:S4488z"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÿâì”ùÿÿÿÿ8Æ†§²1
-p	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ş¶–ıÿÿÿÿ8È†§²1
-m
-java:S4488Š"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ã®Ûøÿÿÿÿ8È†§²1
-k
-java:S4488›"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ïşÒÊûÿÿÿÿ8Ê†§²1
-k
-java:S4488§"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(°¢ÆŸúÿÿÿÿ8Ë†§²1
-c
-java:S4684À"@Replace this persistent entity with a simple POJO or DTO object.(û‡ÊÓûÿÿÿÿ8Î†§²1
-c
-java:S4684À"@Replace this persistent entity with a simple POJO or DTO object.(û‡ÊÓûÿÿÿÿ8Î†§²1
+java:S1192+"MDefine a constant instead of duplicating this literal "errorMessage" 4 times.(èØ•Œ8ò‚Ì¾²1
 h
-java:S4488¿"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"( È°8Î†§²1
+java:S1192"FDefine a constant instead of duplicating this literal "index" 9 times.(¦œû×ÿÿÿÿÿ8ò‚Ì¾²1
+e
+java:S1192K"IDefine a constant instead of duplicating this literal "username" 8 times.(õÈîA8›ïüÄ²1
+n	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èã‰ç8œïüÄ²1
+b
+java:S4684#"@Replace this persistent entity with a simple POJO or DTO object.(ªÇŞµúÿÿÿÿ8ˆƒÌ¾²1
+b
+java:S4684#"@Replace this persistent entity with a simple POJO or DTO object.(ªÇŞµúÿÿÿÿ8ˆƒÌ¾²1
+g
+java:S4488""JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(êØ 8ˆƒÌ¾²1
+l
+java:S44885"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ãèïûÿÿÿÿ8‹ƒÌ¾²1
+g
+java:S4488I"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¶—Ìâ8¹ïüÄ²1
+l
+java:S4488a"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÿâì”ùÿÿÿÿ8»ïüÄ²1
+l
+java:S4488q"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ã®Ûøÿÿÿÿ8½ïüÄ²1
+j
+java:S4488~"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ïşÒÊûÿÿÿÿ8¾ïüÄ²1
+k
+java:S4488ˆ"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(°¢ÆŸúÿÿÿÿ8ÁïüÄ²1
+^
+java:S4684 "@Replace this persistent entity with a simple POJO or DTO object.(èã‰ç8ÃïüÄ²1
+^
+java:S4684 "@Replace this persistent entity with a simple POJO or DTO object.(èã‰ç8ÃïüÄ²1
+h
+java:S4488Ÿ"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"( È°8ÃïüÄ²1

@@ -7,12 +7,12 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate5.HibernateTemplate;
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
+
 
 import javax.transaction.Transactional;
-import java.sql.Blob;
+
 import java.util.ArrayList;
-import java.util.Base64;
+
 import java.util.Collections;
 import java.util.List;
 
@@ -144,8 +144,9 @@ public class UserDaoImpl implements UserDao{
     public void updateUser(User user, Address address) {
         int userId = user.getUser_id();
         User existingUser = hibernateTemplate.get(User.class, userId);
+        if(existingUser!=null){
         String password = existingUser.getPassword();
-        user.setPassword(password);
+        user.setPassword(password);}
         hibernateTemplate.merge(user);
 
         int[] addressId =address.getAddressId();
@@ -161,6 +162,7 @@ public class UserDaoImpl implements UserDao{
                 if (i < addressId.length) {
                     // Update the existing Address with provided address_id
                     Address existingAddress = hibernateTemplate.get(Address.class, addressId[i]);
+                    if(addressId[i]!=0){
                     existingAddress.setAddress_id(addressId[i]);
                     existingAddress.setStreet(street[i]);
                     existingAddress.setApartment(apartment[i]);
@@ -170,7 +172,7 @@ public class UserDaoImpl implements UserDao{
                     existingAddress.setCountry(country[i]);
 
                     existingAddress.setUser(user);
-                    hibernateTemplate.update(existingAddress);
+                    hibernateTemplate.update(existingAddress);}
                 } else {
                     // Create a new Address for a null address_id (generating it)
                     Address newAddress = new Address();

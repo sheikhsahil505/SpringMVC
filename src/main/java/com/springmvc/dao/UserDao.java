@@ -7,7 +7,7 @@ public interface UserDao {
     void saveUser(User user,Address address);
 
 
-    public boolean checkEmailExists(String email);
+     boolean checkEmailExists(String email);
 
     List<User> userDetails(String email, String password);
 
