@@ -1,0 +1,15 @@
+
+q
+java:S1192"ODefine a constant instead of duplicating this literal "forgetPassword" 3 times.(Ÿäò×ıÿÿÿÿ8í¬®š²1
+j
+java:S11923"MDefine a constant instead of duplicating this literal "errorMessage" 3 times.(×Ê8î¬®š²1
+g
+java:S4488""JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(€¾ó8„­®š²1
+l
+java:S44888"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¿˜ê´úÿÿÿÿ8ˆ­®š²1
+f
+java:S4488C"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(“¸ï)8‹­®š²1
+W
+java:S4719G":Replace Charset.forName() call with StandardCharsets.UTF_8(áËÅÉ8­®š²1
+a
+java:S1128"DRemove this unused import 'com.springmvc.dao.ForgetPasswordDaoimpl'.(Ì€Ó¼8Ì¤¿š²1

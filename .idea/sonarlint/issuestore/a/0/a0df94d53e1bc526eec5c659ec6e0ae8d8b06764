@@ -1,0 +1,25 @@
+
+
+java:S1488P"]Immediately return this expression instead of assigning it to the temporary variable "users".(ùõÇÎúÿÿÿÿ8æ¼Öò±1
+z
+java:S1488g"]Immediately return this expression instead of assigning it to the temporary variable "users".(’éöæ8ç¼Öò±1
+h
+java:S2259’"JA "NullPointerException" could be thrown; "existingUser" is nullable here.(°“Ì¸8ã½Öò±1
+k
+java:S2259£"MA "NullPointerException" could be thrown; "existingAddress" is nullable here.(×ºÜ¦8ïÛÏó±1
+b
+java:S2095g"EUse try-with-resources or close this "Session" in a "finally" clause.(’éöæ8ã½Öò±1
+b
+java:S2095Z"EUse try-with-resources or close this "Session" in a "finally" clause.(ïûÙæ8ã½Öò±1
+b
+java:S2095?"EUse try-with-resources or close this "Session" in a "finally" clause.(£¦‰8ã½Öò±1
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(äÙ¬8ä½Öò±1
+Z
+java:S1874Q"8Remove this use of "findByNamedParam"; it is deprecated.(°Æ²¦ùÿÿÿÿ8î½Öò±1
+H
+java:S1168m"+Return an empty collection instead of null.(¥¹ï8ò½Öò±1
+G
+java:S1128"*Remove this unused import 'java.sql.Blob'.(ïÚ¶ã8ş½Öò±1
+J
+java:S1128"-Remove this unused import 'java.util.Base64'.(ëŠ»Õ8ş½Öò±1
